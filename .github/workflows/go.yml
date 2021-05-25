@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: sumitroopchandani/devops:v3
+    runs-on: sumitroopchandani/bitbucket:v10
     
     steps:
     - name: Set up Go 1.x
