@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: sumitroopchandani/hello-gitops
-  newTag: 9ebcd1357f4f2591916cc79eaf8a94c8d4a75de3
+  newTag: d39c4ee1ea36d3a3d62bac65b0bcb8f6d56a849e
