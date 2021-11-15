@@ -48,7 +48,7 @@ jobs:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       run: |
        cd kustomize/base
-       kustomize edit set image hello-gitops=$DOCKER_USERNAME/hello-gitops:$GITHUB.RUN_NUMBER
+       kustomize edit set image hello-gitops=$DOCKER_USERNAME/hello-gitops:${{ github.run_number}}
        cat kustomization.yaml
         
     - name: Commit files
