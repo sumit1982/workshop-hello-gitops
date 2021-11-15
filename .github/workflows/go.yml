@@ -27,7 +27,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: ${{ secrets.DOCKER_USERNAME }}/hello-gitops
-        tags: ${{ github.run_id }}, latest
+        tags: ${{ github.run_number}}
 
   deploy:
     name: Deploy
