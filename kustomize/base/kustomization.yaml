@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: sumitroopchandani/hello-gitops
-  newTag: c5d714e65a3a2a79ad5fd2120c7ab5141ef7ff67
+  newTag: .RUN_NUMBER
