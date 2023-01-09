@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: workshop-hello-gitops
+  annotations:
+    github.com/project-slug: sumit1982/workshop-hello-gitops
+spec:
+  type: other
+  lifecycle: unknown
+  owner: sumit1982
