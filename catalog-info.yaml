@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: sumit1982/workshop-hello-gitops
 spec:
-  type: other
+  type: app
   lifecycle: unknown
   owner: sumit1982
